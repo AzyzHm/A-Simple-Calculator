@@ -1,7 +1,11 @@
 screen = document.querySelector('.screen');
 
 function add(value) {
-  if (screen.innerText === '0') {screen.innerText = value;}
+  if (screen.innerText === '0')
+    {if (value === '.'){
+    screen.innerText += value;
+  }
+  else screen.innerText = value;}
   else  screen.innerText += value;
 }
 
