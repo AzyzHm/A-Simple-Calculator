@@ -1,0 +1,101 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    align-items: center;
+    background-color: hsl(0, 0%, 10%);
+    display: flex;
+    font-family: 'Arial', sans-serif; 
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.container{
+    backdrop-filter: blur(10px);
+    background: hsl(0, 0%, 20%);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 5px 30px rgba(20,20,20,0.1);
+    color: black;
+    -webkit-backdrop-filter: blur(10px);
+    flex-basis: 400px;
+    height: 550px;
+    padding: 20px 35px;
+}
+
+.screen{
+    padding: 20px;
+    text-align: right;
+    width: 350px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-shadow: 0 5px 30px rgba(20,20,20,0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: whitesmoke;
+    font-size: 30px;
+    overflow: auto;
+   
+
+}
+
+.button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+.button{
+    color: black;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 25px;
+    height: 70px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(20,20,20,0.1);
+    border-radius: 15px;
+    box-shadow: 0 5px 30px rgba(20,20,20,0.1);
+    -webkit-backdrop-filter: blur(10px);
+    background: whitesmoke;
+    cursor: pointer;
+}
+
+.button:last-child{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 5px 30px rgba(20,20,20,0.1);
+    color: black;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: hsl(50, 100%, 50%);
+}
+
+.button:last-child:hover{
+    background: hsl(50, 100%, 70%);
+    color: inherit;
+}
+.button:last-child:active{
+    background:hsl(50, 100%, 100%);
+}
+
+.button:hover{
+    background: inherit;
+}
+
+.button:active{
+    background-color: hsl(50, 100%, 100%);
+}
+
+.clear{
+    flex-basis: 47%;}
+
+.zero{
+    flex-basis: 47%;
+}
