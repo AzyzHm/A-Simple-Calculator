@@ -99,3 +99,28 @@ body{
 .zero{
     flex-basis: 47%;
 }
+/* Media query for desktop screens */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-basis: 80%;
+    }
+
+    .screen, .button-row {
+        width: 100%;
+    }
+
+    .button {
+        flex-basis: 23%;
+    }
+}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 480px) {
+    .container {
+        flex-basis: 100%;
+    }
+
+    .button {
+        flex-basis: 30%;
+    }
+}
