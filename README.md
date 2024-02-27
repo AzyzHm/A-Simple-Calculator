@@ -33,7 +33,9 @@ cd simple-calculator
 
 
 ## Screenshots
+  ### Overview
 
+![Simple Calculator - Desktop](/screenshots/overview.png)
 
 
 *Caption: overview of the simple calculator.*
