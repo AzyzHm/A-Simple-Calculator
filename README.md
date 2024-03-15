@@ -33,10 +33,10 @@ cd A-Simple-Calculator
 
 
 ## Screenshots
-
-### Overview
+  ### Overview
 
 ![Simple Calculator - Desktop](/screenshots/overview.png)
+
 
 *Caption: overview of the simple calculator.*
 
