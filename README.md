@@ -1,4 +1,4 @@
-# Simple Calculator
+# A Simple Calculator
 
 A basic calculator web application built with HTML5, CSS, and JavaScript.
 
@@ -27,8 +27,8 @@ A basic calculator web application built with HTML5, CSS, and JavaScript.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/simple-calculator.git
-cd simple-calculator
+git clone https://github.com/AzyzHm/A-Simple-Calculator.git
+cd A-Simple-Calculator
 ```
 
 
